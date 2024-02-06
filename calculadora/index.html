@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Programador Designer Pro</title>
+</head>
+  <body>
+    <div class="container">
+      <div class="calc-grid">
+        <div class="output" id="display-1">
+          <div class="solar" id="solar-panel">
+            <span class="solar-2"></span>
+          </div>
+          <div class="output-2"></div>
+          <div data-previous class="previous-operand"></div>
+          <div data-current class="current-operand" id="display">NaN12341241243</div>
+        </div>
+        <button data-AC class="span-two" id="clear" onclick="press('clear')">AC</button>
+        <button data-delete id="DEL" onclick="press('deleteBtn')">DEL</button>
+        <button data-operation id="divide" onclick="press('divide')">÷</button>
+        <button data-number id="seven" onclick="press('seven')">7</button>
+        <button data-number id="eight" onclick="press('eight')">8</button>
+        <button data-number id="nine" onclick="press('nine')">9</button>
+        <button data-operation id="multiply" onclick="press('multiply')">X</button>
+        <button data-number id="four" onclick="press('four')">4</button>
+        <button data-number id="five" onclick="press('five')">5</button>
+        <button data-number id="six" onclick="press('six')">6</button>
+        <button data-operation id="subtract" onclick="press('subtract')">-</button>
+        <button data-number id="one" onclick="press('one')">1</button>
+        <button data-number id="two" onclick="press('two')">2</button>
+        <button data-number id="three" onclick="press('three')">3</button>
+        <button data-operation id="add" class="span-two-up" onclick="press('add')">+</button>
+        <button data-number id="zero" onclick="press('zero')">0</button>
+        <button data-number id="decimal" onclick="press('decimal')">.</button>
+        <button data-equals id="equals" onclick="press('equalsBtn')">=</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
