@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../Imagens/imagem.jpg");
+    background-position: 40% 20%;
+    color:indianred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+}
+
+div#corpo-form{
+   /* background-color: azure;*/
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+
+div#corpo-form{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    color: ghostwhite;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: bisque;
+    border: none;
+}
+
+::-webkit-input-placeholder{ /* WebKit browsers */
+    color:#fff
+
+}
+
+:-moz-placeholder{ /*Mozilla Firefox 4 to 18 */
+    color: #fff;
+
+}
+
+::-moz-placeholder{ /*Mozilla Firefox 19+ */
+   color: #fff; 
+
+}
+
+:-ms-input-placeholder{ /*Internet Explorer 10+ */
+    color: #fff;
+
+}
